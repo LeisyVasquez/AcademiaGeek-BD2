@@ -1,0 +1,522 @@
+{
+	"id": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+	"name": "AcademiaGeek-BD",
+	"description": "Set de pruebas para ejercio de clase de Base de Datos con el docente Oscar Mesa",
+	"order": [
+		"5163bafa-f6c3-affa-f77a-7d63236836e3",
+		"346de203-32f1-df64-6bf6-291598cb6aa0",
+		"6003fbda-ce99-e214-fb2e-34430361bafb",
+		"cbe912d7-940e-9fec-722e-789b6b7bad70",
+		"d95da912-8302-bfae-2625-bb5384118317",
+		"d955e07e-94dc-25f5-f486-c641f08b5139",
+		"45fb703a-a3be-2375-202a-f0c97586f129",
+		"cceab3ea-e793-b096-2fcc-29191b6c6158",
+		"56389120-bdd6-3e4b-be85-6411dabcac13",
+		"743e9641-5dfb-3975-1c5b-6c9bba657054",
+		"9082505d-7982-77bd-3a89-c71527d85d7e",
+		"ef8cdc8b-4ad5-a601-2d00-689a18e8e4c8",
+		"3d61277a-78b3-e66e-b6a8-8e0a2890c2a8",
+		"66a11a6e-05c2-9f90-902f-a349be152270",
+		"125fc5bb-0e5b-6bb2-b09a-39dce9914769",
+		"2baaf645-04ea-84a6-40fa-d31747514242"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1611185816807,
+	"owner": "14235987",
+	"public": false,
+	"requests": [
+		{
+			"id": "125fc5bb-0e5b-6bb2-b09a-39dce9914769",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/vehiculos/sumaModelo",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "suma de los modelos de vehiculo",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611634256601,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"activo\": \"S\"\n}"
+		},
+		{
+			"id": "2baaf645-04ea-84a6-40fa-d31747514242",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/vehiculos/promedioModelo",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "promedio de los modelos de vehiculo",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611634287712,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"activo\": \"S\"\n}"
+		},
+		{
+			"id": "346de203-32f1-df64-6bf6-291598cb6aa0",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/tipo_linea",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "tipo_linea",
+			"description": "Servicio para insertar registros en la tabla tipo_linea",
+			"descriptionFormat": "html",
+			"time": 1611270027627,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"desc_linea\": \"Renegade\",\r\n\"id_marca\": 5,\r\n\"activo\": \"s\"\r\n}"
+		},
+		{
+			"id": "3d61277a-78b3-e66e-b6a8-8e0a2890c2a8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api//tipo_linea/1/N",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "ver estado de tipo_linea",
+			"description": "Recibe el id_linea y el estado para filtrar el tipo de marca",
+			"descriptionFormat": "html",
+			"time": 1611628740722,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"activo\": \"S\"\n}"
+		},
+		{
+			"id": "45fb703a-a3be-2375-202a-f0c97586f129",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/vehiculos/fecha_ven_seguro/2015-04-11",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611556576406,
+			"name": "vehiculos por fecha_ven_seguro",
+			"description": "Muestra los registros de vehiculos que sean menores o iguales al rango fecha_ven_seguro ingresado por params ",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"responses": [],
+			"rawModeData": "{\r\n\"desc_linea\": \"FORR\",\r\n\"id_marca\": 5,\r\n\"activo\": \"s\"\r\n}"
+		},
+		{
+			"id": "5163bafa-f6c3-affa-f77a-7d63236836e3",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/tipo_marca",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611274054419,
+			"name": "tipo_marca ",
+			"description": "Servicio para insertar registros en la tabla tipo_marca",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"responses": [],
+			"rawModeData": "{\r\n\"desc_marca\": \"DFSDF\",\r\n\"activo\": \"S\"\r\n}"
+		},
+		{
+			"id": "56389120-bdd6-3e4b-be85-6411dabcac13",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/vehiculo/modelo_maximo_minimo",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "modelo maximo y minimo de un vehiculo",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611559195017,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"desc_linea\": \"FORR\",\r\n\"id_marca\": 5,\r\n\"activo\": \"s\"\r\n}"
+		},
+		{
+			"id": "6003fbda-ce99-e214-fb2e-34430361bafb",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/vehiculos",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "vehiculos",
+			"description": "Servicio para insertar registros en la tabla vehiculos",
+			"descriptionFormat": "html",
+			"time": 1611273888684,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"nro_placa\": \"RTO666\",\r\n\"id_linea\": 3,\r\n\"modelo\": \"2013\",\r\n\"fecha_ven_seguro\": \"2014-01-01\",\r\n\"fecha_ven_tecnomecanica\": \"2014-01-01\",\r\n\"fecha_ven_contrato\": \"2015-01-01\"\r\n}"
+		},
+		{
+			"id": "66a11a6e-05c2-9f90-902f-a349be152270",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/tipo_marca/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "eliminar tipo_marca",
+			"description": "Recibe el id_marca para eliminar tipo_marca",
+			"descriptionFormat": "html",
+			"time": 1611629601084,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"activo\": \"S\"\n}"
+		},
+		{
+			"id": "743e9641-5dfb-3975-1c5b-6c9bba657054",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/tipo_marca/4",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611626952541,
+			"name": "modificar estado de tipo_marca",
+			"description": "Recibe el id_marca al que desea actualizar por parametros con su respectivo valor de estado recibido por el body\n\n",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"responses": [],
+			"rawModeData": "{\r\n\r\n\"activo\": \"S\"\r\n}"
+		},
+		{
+			"id": "9082505d-7982-77bd-3a89-c71527d85d7e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/tipo_marca/4/S",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "ver estado de tipo_marca",
+			"description": "Recibe el id_marca y el estado para filtrar el tipo de marca",
+			"descriptionFormat": "html",
+			"time": 1611626877570,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"activo\": \"S\"\n}"
+		},
+		{
+			"id": "cbe912d7-940e-9fec-722e-789b6b7bad70",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/vehiculos/reg",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "verificacion registros_vehiculo",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611280661871,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"desc_linea\": \"FORR\",\r\n\"id_marca\": 5,\r\n\"activo\": \"s\"\r\n}"
+		},
+		{
+			"id": "cceab3ea-e793-b096-2fcc-29191b6c6158",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/vehiculos/modelo/2021",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "vehiculos por modelo",
+			"description": "Muestra los registros de vehiculos que sean menores o iguales al rango modelo ingresado por params ",
+			"descriptionFormat": "html",
+			"time": 1611556634215,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"desc_linea\": \"FORR\",\r\n\"id_marca\": 5,\r\n\"activo\": \"s\"\r\n}"
+		},
+		{
+			"id": "d955e07e-94dc-25f5-f486-c641f08b5139",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/tipo_marca/reg",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "verificacion registros tipo_marca",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611281441064,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"desc_linea\": \"FORR\",\r\n\"id_marca\": 5,\r\n\"activo\": \"s\"\r\n}"
+		},
+		{
+			"id": "d95da912-8302-bfae-2625-bb5384118317",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api/tipo_linea/reg",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "verificacion registros tipo_linea",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611281136115,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\"desc_linea\": \"FORR\",\r\n\"id_marca\": 5,\r\n\"activo\": \"s\"\r\n}"
+		},
+		{
+			"id": "ef8cdc8b-4ad5-a601-2d00-689a18e8e4c8",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:5001/api//tipo_linea/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "8255f126-24e7-323b-ffc7-9388f8fb484e",
+			"data": [],
+			"dataMode": "raw",
+			"name": "modificar estado de tipo_linea",
+			"description": "Recibe el id_linea al que desea actualizar por parametros con su respectivo valor de estado recibido por el body\n\n",
+			"descriptionFormat": "html",
+			"time": 1611628514626,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n\r\n\"activo\": \"N\"\r\n}"
+		}
+	]
+}
